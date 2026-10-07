@@ -1,3 +1,8 @@
 python -m venv .venv
 
 .\.venv\Scripts\activate
+
+python train.py
+
+python -m streamlit run app.py
+
